@@ -1,0 +1,16 @@
+PODS:
+  - LetheStretchyHeader (1.0.0)
+
+DEPENDENCIES:
+  - LetheStretchyHeader (from `../LetheStretchyHeader/`)
+
+EXTERNAL SOURCES:
+  LetheStretchyHeader:
+    :path: "../LetheStretchyHeader/"
+
+SPEC CHECKSUMS:
+  LetheStretchyHeader: 6386bf0502648778cd59da26cf61a8a77d2c2bac
+
+PODFILE CHECKSUM: 608a9d9020217fab2b36b8c7ae28f3761c4a12f8
+
+COCOAPODS: 1.7.1
