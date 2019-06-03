@@ -9,13 +9,17 @@
 import UIKit
 import LetheStretchyHeader
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    @IBOutlet private weak var scrollView: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        initialHeader()
     }
 
-
+    private func initialHeader() {
+        LetheStretchyHeader().initial(viewController: self, parentView: scrollView, customHeader: nil, image: UIImage(named: "sample"), height: 200, type: .afterShowNavigationBar)
+    }
 }
 

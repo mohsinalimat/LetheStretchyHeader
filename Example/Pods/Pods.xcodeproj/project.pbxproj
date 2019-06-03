@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00BD011FFA4949B035FECCC1E31D159B /* LetheStretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7958DFC4E4D9FE7518401C684B1D0 /* LetheStretchyHeader.swift */; };
-		22BF794619949B1F0E164885E193FE93 /* LetheStretchyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C24D0616E65776DDEA65FC14AAD85A /* LetheStretchyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		303C96162A1CEBD62BD930DF25F5FA80 /* LetheStretchyHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E905D8F1D965466BE82DF53B7EA1CC1A /* LetheStretchyHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AA280011A9FDFE7FCAD4E339739094A /* LetheStretchyHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D64AD37F9979224F4A2637A3DCAB181 /* LetheStretchyHeader-dummy.m */; };
-		B1906EA21F89821E30E78D948CAA4618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1DA074876C481E51982E93C96FD58FB4 /* LetheStretchyHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1756DDA75F0DDD7575B84CB61248BAFD /* LetheStretchyHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4947CB99F90829DFA4F7AEC448CFC820 /* LetheStretchyHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C14D7BDB99721BB5BF39FF630D9C1346 /* LetheStretchyHeader-dummy.m */; };
+		532108615E5BA084F5E59A75880FA6EA /* LetheStretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392B8B8FEDD6BCE0DF6320A27E25664D /* LetheStretchyHeader.swift */; };
+		8F2D136FA7E36C46B953AE42562E8FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C5FA86A2042098C69F6B0CD562113C67 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEC68AF24565056B5F3A02228D00FEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E905059B5EA378ECF5E78A01A4D0A805 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
@@ -28,36 +27,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E1E5A6F44F6C3D06AF17A27DADF305 /* LetheStretchyHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetheStretchyHeader.modulemap; sourceTree = "<group>"; };
+		1756DDA75F0DDD7575B84CB61248BAFD /* LetheStretchyHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-umbrella.h"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		4384C55B796E44B6234A45BAEED38555 /* LetheStretchyHeader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LetheStretchyHeader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		392B8B8FEDD6BCE0DF6320A27E25664D /* LetheStretchyHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheStretchyHeader.swift; path = LetheStretchyHeader/LetheStretchyHeader/LetheStretchyHeader.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D64AD37F9979224F4A2637A3DCAB181 /* LetheStretchyHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetheStretchyHeader-dummy.m"; sourceTree = "<group>"; };
+		47D2F8A258BBDB9903993814B828126B /* LetheStretchyHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetheStretchyHeader.xcconfig; sourceTree = "<group>"; };
+		60D51B6F421AB1347A77664172E70BC0 /* LetheStretchyHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetheStretchyHeader.modulemap; sourceTree = "<group>"; };
 		686F5B12E325F17172DB60979A7DEB8F /* LetheStretchyHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetheStretchyHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AC7958DFC4E4D9FE7518401C684B1D0 /* LetheStretchyHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheStretchyHeader.swift; path = LetheStretchyHeader/LetheStretchyHeader.swift; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		83C24D0616E65776DDEA65FC14AAD85A /* LetheStretchyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LetheStretchyHeader.h; path = LetheStretchyHeader/LetheStretchyHeader.h; sourceTree = "<group>"; };
+		7CBD4FDD179D01C411D5C40A6D48849D /* LetheStretchyHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetheStretchyHeader-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F16F02A5B7D3B4DD6D13DC45047B8A5 /* LetheStretchyHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-prefix.pch"; sourceTree = "<group>"; };
-		AAEBB7D3360445C87B90BE08A271EAE6 /* LetheStretchyHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetheStretchyHeader.xcconfig; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C14D7BDB99721BB5BF39FF630D9C1346 /* LetheStretchyHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetheStretchyHeader-dummy.m"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E03CFC5649FA4C9970E3182735A06165 /* LetheStretchyHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetheStretchyHeader-Info.plist"; sourceTree = "<group>"; };
-		E905D8F1D965466BE82DF53B7EA1CC1A /* LetheStretchyHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-umbrella.h"; sourceTree = "<group>"; };
+		E68DC0451E17982803292BB9AF88804C /* LetheStretchyHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-prefix.pch"; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9872FA71ED70E39F3819AAC1E8BF49B0 /* Frameworks */ = {
+		88295CF3AE9D68A926BCD14D4C384F5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1906EA21F89821E30E78D948CAA4618 /* Foundation.framework in Frameworks */,
+				8F2D136FA7E36C46B953AE42562E8FAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,24 +69,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55225DBD569EF97A9D5EAB90221D4F2C /* Pod */ = {
+		288253A41F15143FBB03C6242A5F6461 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4384C55B796E44B6234A45BAEED38555 /* LetheStretchyHeader.podspec */,
+				DBB61199D971BFED105389459E161477 /* LetheStretchyHeader */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6ED54D1A1D829E4463C27BEC4CA8B694 /* LetheStretchyHeader */ = {
-			isa = PBXGroup;
-			children = (
-				83C24D0616E65776DDEA65FC14AAD85A /* LetheStretchyHeader.h */,
-				6AC7958DFC4E4D9FE7518401C684B1D0 /* LetheStretchyHeader.swift */,
-				55225DBD569EF97A9D5EAB90221D4F2C /* Pod */,
-				ACDE4463B491A476B02634251235C74E /* Support Files */,
-			);
-			name = LetheStretchyHeader;
-			path = ../../LetheStretchyHeader;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -109,20 +94,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		ACDE4463B491A476B02634251235C74E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				04E1E5A6F44F6C3D06AF17A27DADF305 /* LetheStretchyHeader.modulemap */,
-				AAEBB7D3360445C87B90BE08A271EAE6 /* LetheStretchyHeader.xcconfig */,
-				5D64AD37F9979224F4A2637A3DCAB181 /* LetheStretchyHeader-dummy.m */,
-				E03CFC5649FA4C9970E3182735A06165 /* LetheStretchyHeader-Info.plist */,
-				9F16F02A5B7D3B4DD6D13DC45047B8A5 /* LetheStretchyHeader-prefix.pch */,
-				E905D8F1D965466BE82DF53B7EA1CC1A /* LetheStretchyHeader-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/LetheStretchyHeader";
-			sourceTree = "<group>";
-		};
 		B0BC1A1B55458938959A60C8A2B2698A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +111,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C31BB6513E9572B01CB3C9EDFEB9DD00 /* Development Pods */ = {
+		C2E3734343CDA7A8698B9EE235317375 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6ED54D1A1D829E4463C27BEC4CA8B694 /* LetheStretchyHeader */,
+				60D51B6F421AB1347A77664172E70BC0 /* LetheStretchyHeader.modulemap */,
+				47D2F8A258BBDB9903993814B828126B /* LetheStretchyHeader.xcconfig */,
+				C14D7BDB99721BB5BF39FF630D9C1346 /* LetheStretchyHeader-dummy.m */,
+				7CBD4FDD179D01C411D5C40A6D48849D /* LetheStretchyHeader-Info.plist */,
+				E68DC0451E17982803292BB9AF88804C /* LetheStretchyHeader-prefix.pch */,
+				1756DDA75F0DDD7575B84CB61248BAFD /* LetheStretchyHeader-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/LetheStretchyHeader";
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -160,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C31BB6513E9572B01CB3C9EDFEB9DD00 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				288253A41F15143FBB03C6242A5F6461 /* Pods */,
 				B0BC1A1B55458938959A60C8A2B2698A /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -175,15 +152,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DBB61199D971BFED105389459E161477 /* LetheStretchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				392B8B8FEDD6BCE0DF6320A27E25664D /* LetheStretchyHeader.swift */,
+				C2E3734343CDA7A8698B9EE235317375 /* Support Files */,
+			);
+			path = LetheStretchyHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		819A55341D569E08885AFAABFB17D490 /* Headers */ = {
+		338E1508A69F016895811F4277764306 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303C96162A1CEBD62BD930DF25F5FA80 /* LetheStretchyHeader-umbrella.h in Headers */,
-				22BF794619949B1F0E164885E193FE93 /* LetheStretchyHeader.h in Headers */,
+				1DA074876C481E51982E93C96FD58FB4 /* LetheStretchyHeader-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,12 +204,12 @@
 		};
 		F2218C64DFC351484C2CBDCFCD50FB45 /* LetheStretchyHeader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554134CCBE287A06C13E63305EE3FD7F /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */;
+			buildConfigurationList = B69310CB36CD74A762D9FC0AA55C9279 /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */;
 			buildPhases = (
-				819A55341D569E08885AFAABFB17D490 /* Headers */,
-				AA399E162324953B7C9187AA8BD99D53 /* Sources */,
-				9872FA71ED70E39F3819AAC1E8BF49B0 /* Frameworks */,
-				EC1A4F9DB486EEDA5FAC38B089C81DEA /* Resources */,
+				338E1508A69F016895811F4277764306 /* Headers */,
+				E883E1C6EF953CF2044CC8FAD1C00E4B /* Sources */,
+				88295CF3AE9D68A926BCD14D4C384F5F /* Frameworks */,
+				0706D70FDC0FAF90C05E4B54E48C38D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -263,14 +248,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F9FA818C3BE50C73D8191D8D2B94425 /* Resources */ = {
+		0706D70FDC0FAF90C05E4B54E48C38D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC1A4F9DB486EEDA5FAC38B089C81DEA /* Resources */ = {
+		8F9FA818C3BE50C73D8191D8D2B94425 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,12 +273,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA399E162324953B7C9187AA8BD99D53 /* Sources */ = {
+		E883E1C6EF953CF2044CC8FAD1C00E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA280011A9FDFE7FCAD4E339739094A /* LetheStretchyHeader-dummy.m in Sources */,
-				00BD011FFA4949B035FECCC1E31D159B /* LetheStretchyHeader.swift in Sources */,
+				4947CB99F90829DFA4F7AEC448CFC820 /* LetheStretchyHeader-dummy.m in Sources */,
+				532108615E5BA084F5E59A75880FA6EA /* LetheStretchyHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +294,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		067CC142CFF13679AAC8C1630E562A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D2F8A258BBDB9903993814B828126B /* LetheStretchyHeader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
+				PRODUCT_MODULE_NAME = LetheStretchyHeader;
+				PRODUCT_NAME = LetheStretchyHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		06EE4CA2B9D7088F70F3BDDF93C3CBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
@@ -472,6 +494,42 @@
 			};
 			name = Release;
 		};
+		50ED61EA6EBE11EC263E40FA3748E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D2F8A258BBDB9903993814B828126B /* LetheStretchyHeader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
+				PRODUCT_MODULE_NAME = LetheStretchyHeader;
+				PRODUCT_NAME = LetheStretchyHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		80E44AEC8C749DF9CAE3EA6053919E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
@@ -510,79 +568,6 @@
 			};
 			name = Debug;
 		};
-		86E247C1B065BE633860D1F909822055 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAEBB7D3360445C87B90BE08A271EAE6 /* LetheStretchyHeader.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
-				PRODUCT_MODULE_NAME = LetheStretchyHeader;
-				PRODUCT_NAME = LetheStretchyHeader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF136347765FED5ABE8F02F8129C3C07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAEBB7D3360445C87B90BE08A271EAE6 /* LetheStretchyHeader.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
-				PRODUCT_MODULE_NAME = LetheStretchyHeader;
-				PRODUCT_NAME = LetheStretchyHeader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,11 +589,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554134CCBE287A06C13E63305EE3FD7F /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */ = {
+		B69310CB36CD74A762D9FC0AA55C9279 /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86E247C1B065BE633860D1F909822055 /* Debug */,
-				FF136347765FED5ABE8F02F8129C3C07 /* Release */,
+				50ED61EA6EBE11EC263E40FA3748E780 /* Debug */,
+				067CC142CFF13679AAC8C1630E562A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

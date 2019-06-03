@@ -1,24 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DFL-tx-OFo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LetheStretchyHeader Sample-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Css-8D-IxM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEP-dQ-RzP">
+                                        <rect key="frame" x="87" y="250" width="240" height="128"/>
+                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="0.50901648116438358" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="TDF-Gh-X56"/>
+                                            <constraint firstAttribute="width" constant="240" id="oVb-zD-bu5"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, scroll me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl1-Qo-Mx2">
+                                        <rect key="frame" x="159.5" y="303.5" width="95" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dl1-Qo-Mx2" firstAttribute="centerY" secondItem="VEP-dQ-RzP" secondAttribute="centerY" id="2lM-xD-M6H"/>
+                                    <constraint firstItem="dl1-Qo-Mx2" firstAttribute="centerX" secondItem="VEP-dQ-RzP" secondAttribute="centerX" id="aGv-JS-68K"/>
+                                    <constraint firstItem="VEP-dQ-RzP" firstAttribute="top" secondItem="Css-8D-IxM" secondAttribute="top" constant="250" id="b3H-Pl-j4w"/>
+                                    <constraint firstAttribute="trailing" secondItem="dl1-Qo-Mx2" secondAttribute="trailing" constant="159" id="ca0-BF-bn3"/>
+                                    <constraint firstAttribute="bottom" secondItem="VEP-dQ-RzP" secondAttribute="bottom" constant="400" id="rue-8b-cYB"/>
+                                    <constraint firstItem="VEP-dQ-RzP" firstAttribute="centerX" secondItem="Css-8D-IxM" secondAttribute="centerX" id="vii-eC-tRB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Css-8D-IxM" secondAttribute="bottom" id="7nm-CC-7Wn"/>
+                            <constraint firstItem="Css-8D-IxM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V0M-iO-egr"/>
+                            <constraint firstItem="Css-8D-IxM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V79-Fu-B9O"/>
+                            <constraint firstItem="Css-8D-IxM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="osp-hk-Q1d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="LetheStretchyHeader Sample" id="rNG-ZB-w3U"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Css-8D-IxM" id="x59-vr-iJN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="924.63768115942037" y="733.92857142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2pC-8p-OzQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DFL-tx-OFo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4ug-jv-RVW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eTu-jo-Sfl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VpK-kA-V9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="179.71014492753625" y="733.92857142857144"/>
         </scene>
     </scenes>
 </document>

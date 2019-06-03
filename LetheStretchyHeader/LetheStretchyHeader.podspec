@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "LetheStretchyHeader"
-spec.version      = "1.0.0"
+spec.version      = "1.0.1"
 spec.summary      = "Stretchy header for UIScrollView, UITableView and UICollectionView"
 spec.description  = "Best User Interface for UIScrollView, UITableView and UICollectionView"
 spec.homepage     = "https://github.com/osmanyildirim/LetheStretchyHeader"
