@@ -1,0 +1,10 @@
+framework module LetheStretchyHeader {
+  umbrella header "LetheStretchyHeader.h"
+
+  export *
+  module * { export * }
+}
+
+module LetheStretchyHeader.__Swift {
+    exclude header "LetheStretchyHeader-Swift.h"
+}
